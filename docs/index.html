@@ -5,13 +5,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   </head>
   <body>
     <main>
+      <style>
+.center {
+  margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 90%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+
+  <div class="center">
+    <button onclick="window.location.reload();" style="border: none; background-color: transparent; font-family: Times New Roman; color:white; font-size:3vw; text-shadow: 1px 1px 10px #241296, 1px 1px 10px #ffffff;">Next</button>
+      </div>
     </main>
     <script src="sketch.js"></script>
-    <!-- <script>if(window.alreadyAddedTapAnywhereListener \=\=\= undefined) \{ window.addEventListener('click', function(e)\{ window.update(); \}); window.alreadyAddedTapAnywhereListener \= true;\}</script> -->
+    
   </body>
 </html>
