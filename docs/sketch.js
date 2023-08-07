@@ -4,6 +4,7 @@
 // GLOBAL VARIABLES
 
 let textures = []; // CREATE AN EMPTY ARRAY TO STORE VARIABLES
+let portals = []; // CREATE AN EMPTY ARRAY TO STORE VARIABLES
 let numTextures = 11;
 let tx1, tx2, tx3, tx4, tx5, tx6, tx7;
 let p1, p2, p3, p4, p5, p6, p7, p8;
@@ -41,7 +42,7 @@ function preload() {
   p3 = loadImage('minnaportal.JPG');
   p4 = loadImage('clareportal.JPG');
   p5 = loadImage('daveportal.jpeg');
-  p6 = loadImage('honeybeeportal.PNG');
+  p6 = loadImage('honeybeeportal.JPG');
   p7 = loadImage('liamportal.JPG');
   p8 = loadImage('seamusportal.JPG');
   portals = [p1, p2, p3, p4, p5, p6, p7, p8];
