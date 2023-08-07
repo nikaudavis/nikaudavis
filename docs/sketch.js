@@ -1462,12 +1462,12 @@ let feelingList = [
        "\nProperty Owner(s): " + propertyOwners +
        "\nProperty Tenant(s): " + propertyTenants +
        "\nAddress: " + address,
-    "Portal Registration Form 16777216 " + " Page 2/3" +
-       "Department of Transportation" +
-       "\n\nDescription: " + description,
-    "Portal Registration Form 16777216 " + " Page 3/3" +
-       "Department of Transportation" +
-       "\n\nFirst Contact: " + firstContact,
+    "Portal Registration Form 16777216 " + " Page 2/3\n" +
+       "Department of Transportation\n\n" +
+       "Description: " + description,
+    "Portal Registration Form 16777216 " + " Page 3/3\n" +
+       "Department of Transportation\n\n" +
+       "First Contact: " + firstContact,
     letter + " - " + fN + " " + lN + ", " + location
   ]
   
