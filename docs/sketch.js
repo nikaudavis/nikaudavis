@@ -1453,6 +1453,94 @@ let feelingList = [
   let letter = [
     phrase + " " + phrase2 + " " + phrase3
   ];
+    
+  let feelsdoesntfeel = [
+    "feels",
+    "doesn't feel"
+  ]
+  let so = ["", " so"]
+  let real = [
+    "real",
+    "possible",
+    "true",
+    "within reach",
+    "close"
+  ]
+  let unreal = [
+    "unreal",
+    "impossible",
+    "intangible",
+    "unreachable",
+    "distant"
+  ]
+  let realunreal = [
+    random(real),
+    random(unreal)
+  ]
+  let simultaneously = [
+    "simultaneously",
+    "both things at once -"
+  ]
+  
+  let fragment = [
+    "It " + random(feelsdoesntfeel) + random(so) + " " + random(real),
+    "It's " + random(simultaneously) + " " + random(real) + " and " + random(unreal),
+    "It's " + random(simultaneously) + " " + random(unreal) + " and " + random(real),
+    "It's " + random(realunreal),
+    "It's not " + random(realunreal),
+    "There it is",
+    "It's right there",
+    "It's right in front of me",
+    "I can see it"
+  ]
+  
+  let fragmentLC = [
+    "it " + random(feelsdoesntfeel) + random(so) + " " + random(real),
+    "it's " + random(simultaneously) + " " + random(real) + " and " + random(unreal),
+    "it's " + random(simultaneously) + " " + random(unreal) + " and " + random(real),
+    "it's " + random(realunreal),
+    "it's not " + random(realunreal),
+    "there it is",
+    "it's right there",
+    "it's right in front of me",
+    "I can see it"
+  ]
+  
+  let conj = [
+    "but",
+    "and",
+    "or",
+    "so"
+  ]
+  
+  let line1 = [
+    random(fragment) + ".",
+    random(fragment) + ", " + random(conj) + " " + random(fragmentLC) + "."
+  ];
+  let line2 = [
+    random(fragment) + ".",
+    random(fragment) + ", " + random(conj) + " " + random(fragmentLC) + "."
+  ];
+  let line3 = [
+    random(fragment) + ".",
+    random(fragment) + ", " + random(conj) + " " + random(fragmentLC) + "."
+  ];
+  let line4 = [
+    random(fragment) + ".",
+    random(fragment) + ", " + random(conj) + " " + random(fragmentLC) + "."
+  ];
+  let line5 = [
+    random(fragment) + ".",
+    random(fragment) + ", " + random(conj) + " " + random(fragmentLC) + "."
+  ];
+  
+  let poetry = [
+    random(line1) + "\n" +
+    random(line2) + "\n" +
+    random(line3) + "\n" +
+    random(line4) + "\n" +
+    random(line5) + "\n"
+  ]
 
 
   let textOutputList = [
@@ -1470,7 +1558,8 @@ let feelingList = [
        "Department of Transportation" +
        "\n\nFirst Contact: " + firstContact,
     letter + " - " + fN + " " + lN + ", " + location,
-    letter + " - " + fN + " " + lN + ", " + location
+    letter + " - " + fN + " " + lN + ", " + location,
+    poetry
   ]
   
   //text
