@@ -7,7 +7,7 @@ let textures = []; // CREATE AN EMPTY ARRAY TO STORE VARIABLES
 let portals = []; // CREATE AN EMPTY ARRAY TO STORE VARIABLES
 let numTextures = 11;
 let tx1, tx2, tx3, tx4, tx5, tx6, tx7;
-let p1, p2, p3, p4, p5, p6, p7, p8;
+let p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14;
 let blend;
 let colourValue, tf1, tf2, tf3, ts1, ts2, ts3;
 let fontSize;
@@ -45,7 +45,13 @@ function preload() {
   p6 = loadImage('honeybeeportal.JPG');
   p7 = loadImage('liamportal.JPG');
   p8 = loadImage('seamusportal.JPG');
-  portals = [p1, p2, p3, p4, p5, p6, p7, p8];
+  p9 = loadImage('alanaportal.JPG');
+  p10 = loadImage('myportal.JPG');
+  p11 = loadImage('phoenixportal.JPG');
+  p12 = loadImage('rubyportal.JPG');
+  p13 = loadImage('squeakportal.JPG');
+  p14 = loadImage('zoeportal.JPG');
+  portals = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14];
   
   
 // // // the most efficient way using a for loop and concatenation
