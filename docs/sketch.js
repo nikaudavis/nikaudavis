@@ -1456,8 +1456,8 @@ let feelingList = [
 
   let textOutputList = [
     "Out in my garden is a portal. I’ve decorated it and made it feel at home by planting cabbages and broad beans all around it. I can walk through it and find my way to a place that matches my mood - it reads my biorhythms and knows whether I need to emerge in a brooding forest, violent surf, or an alley behind my old primary school. And if I want to return here, I just eat a plate of cabbage and broad beans.",
-    "Portal Registration Form 16777216 " + " Page 1/3" +
-       "\nDepartment of Transportation" +
+    "Portal Registration Form 16777216 " + " Page 1/3\n" +
+       "Department of Transportation" +
        "\n\nPortal ID: " + IDnumber +
        "\nProperty Owner(s): " + propertyOwners +
        "\nProperty Tenant(s): " + propertyTenants +
