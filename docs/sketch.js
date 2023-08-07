@@ -1457,12 +1457,12 @@ let feelingList = [
   let textOutputList = [
     "Out in my garden is a portal. I’ve decorated it and made it feel at home by planting cabbages and broad beans all around it. I can walk through it and find my way to a place that matches my mood - it reads my biorhythms and knows whether I need to emerge in a brooding forest, violent surf, or an alley behind my old primary school. And if I want to return here, I just eat a plate of cabbage and broad beans.",
     "Portal Declaration Form" + 
-       "\n\nPortal ID: " + IDnumber + 
-       "\n\nProperty Owner(s): " + propertyOwners + 
-       "\n\nProperty Tenant(s): " + propertyTenants + 
-       "\n\nLocation Address: " + address + 
-       "\n\nDescription: " + description + 
-       "\n\nFirst Contact: " + firstContact,
+       "\n\nPortal ID: " + IDnumber +
+       "\nProperty Owner(s): " + propertyOwners +
+       "\nProperty Tenant(s): " + propertyTenants +
+       "\nLocation Address: " + address +
+       "\nDescription: " + description +
+       "\nFirst Contact: " + firstContact,
     letter + " - " + fN + " " + lN + ", " + location
   ]
   
