@@ -1463,9 +1463,11 @@ let feelingList = [
        "\nProperty Tenant(s): " + propertyTenants +
        "\nAddress: " + address,
     "Portal Registration Form 16777216 " + " Page 2/3" +
-       "\nDescription: " + description,
+       "Department of Transportation" +
+       "\n\nDescription: " + description,
     "Portal Registration Form 16777216 " + " Page 3/3" +
-       "\nFirst Contact: " + firstContact,
+       "Department of Transportation" +
+       "\n\nFirst Contact: " + firstContact,
     letter + " - " + fN + " " + lN + ", " + location
   ]
   
