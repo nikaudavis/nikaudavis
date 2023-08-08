@@ -90,7 +90,7 @@ function setup() {
   tB2 = random(topBlend);
   portalBlend = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
   pB = random(portalBlend);
-  txtBlend = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, MULTIPLY, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE];
+  txtBlend = [ADD, LIGHTEST, DIFFERENCE, EXCLUSION, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE];
   txtB = random(txtBlend);
   //store random image in a variable
   //let randoImg = random(textures)
