@@ -120,7 +120,8 @@ function setup() {
   image(layer5, w/2, h/2, w, h);
   
   blendMode(pB);
-  image(portal, w/2, h/2, w, h);
+    fill(255);
+  rect(0, 0, w, h);
     
     let artistStatement = ["'Out In My Garden' is a blah blah blah about blah blah blah"]
   
