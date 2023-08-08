@@ -121,8 +121,15 @@ function setup() {
   
   blendMode(pB);
   image(portal, w/2, h/2, w, h);
+    
+    let artistStatement = ["'Out In My Garden' is a blah blah blah about blah blah blah"]
   
-  
+    blendMode(BLEND);
+    fill(tf1, tf2, tf3);
+    stroke(ts1, ts2, ts3);
+    textFont('Times New Roman');
+    textSize(fontSize);
+    text(artistStatement, w/9, h/9, w/9*7)
 
 }
 
