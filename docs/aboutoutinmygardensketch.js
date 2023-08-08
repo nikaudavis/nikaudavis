@@ -85,13 +85,11 @@ function setup() {
   rB1 = random(blend)
   rB2 = random(blend)
   rB3 = random(blend)
-  topBlend = [ADD, DIFFERENCE, EXCLUSION, SCREEN, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN, LIGHTEST];
+  topBlend = [ADD, DIFFERENCE, EXCLUSION, SCREEN, OVERLAY, SOFT_LIGHT, LIGHTEST];
   tB1 = random(topBlend);
   tB2 = random(topBlend);
-  portalBlend = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
+  portalBlend = [ADD, LIGHTEST, DIFFERENCE, EXCLUSION, OVERLAY, SOFT_LIGHT];
   pB = random(portalBlend);
-  txtBlend = [ADD, LIGHTEST, DIFFERENCE, EXCLUSION, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE];
-  txtB = random(txtBlend);
   //store random image in a variable
   //let randoImg = random(textures)
   //the array is put into the random function, it will choose one index value at random
