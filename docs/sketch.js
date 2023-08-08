@@ -64,10 +64,17 @@ function preload() {
 // }
   
 }
+var canvas;
+
+function windowResized() {
+    resiveCanvas(windowWidth, windowHeight);
+};
 
 // ACTUAL SKETCH BELOW
 function setup() {
-  createCanvas(w, h);
+  createCanvas(windowWidth, windowHeight);
+    canvas.position(0,0);
+    canvas.style('z-index', '-1');
   noLoop();
 
   background(255);
