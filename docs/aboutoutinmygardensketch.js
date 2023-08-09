@@ -128,7 +128,7 @@ function setup() {
     stroke(ts1, ts2, ts3);
     textFont('Times New Roman');
     textSize(fontSize);
-    text(artistStatement, w/9, h/9, w/9*7)
+    text(artistStatement, w/12, h/12, w/12*10)
 
 }
 
