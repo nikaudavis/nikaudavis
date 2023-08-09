@@ -14,6 +14,8 @@ let fontSize;
 let w = window.innerWidth;
 let h = window.innerHeight;
 
+var canvas;
+
 
 //LOAD IMAGES BEFORE THE PROGRAM RUNS
 function preload() {
@@ -67,7 +69,8 @@ function preload() {
 
 // ACTUAL SKETCH BELOW
 function setup() {
-  createCanvas(w, h);
+  canvas = createCanvas(w, h);
+    canvas.position(0,0);
   noLoop();
 
   background(255);
