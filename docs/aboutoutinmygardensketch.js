@@ -71,6 +71,7 @@ function preload() {
 function setup() {
   canvas = createCanvas(w, h);
     canvas.position(0,0);
+    canvas.style('z-index', '-1');
   noLoop();
 
   background(255);
@@ -131,7 +132,7 @@ function setup() {
     stroke(ts1, ts2, ts3);
     textFont('Times New Roman');
     textSize(fontSize);
-    text(artistStatement, w/12, h/12, w/12*10)
+    text(artistStatement, w/15, w/15, w/15*13)
 
 }
 
