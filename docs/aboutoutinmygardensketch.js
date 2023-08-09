@@ -121,7 +121,7 @@ function setup() {
     fill(255);
   rect(0, 0, w, h);
     
-    let artistStatement = ["'Out In My Garden' is a blah blah blah about blah blah blah"]
+    let artistStatement = ['"Out In My Garden" is a blah blah blah about blah blah blah.\n\nAcknowledgements\nThank you to Clare Todorovitch, Joshua Smith, Minna Squire, Honeybee O’Gee, Phoenix O’Connell, Ruby Kingham, Alana Hunt, Zoe Davis, Sarah Davis, Seamus Burne, David Bulger and Bailey Ayre for submitting drawings of your portals <3']
   
     blendMode(BLEND);
     fill(tf1, tf2, tf3);
