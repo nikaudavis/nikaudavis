@@ -103,7 +103,7 @@ function setup() {
   ts3 = random(0, 255);
   
   //text size adjusting
-  fontSize = h/30;
+  fontSize = h/40;
   
   //draw to the canvas using the random
   //image(image, x position, y position, image width, image height)
