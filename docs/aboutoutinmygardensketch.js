@@ -89,10 +89,10 @@ function setup() {
   rB1 = random(blend)
   rB2 = random(blend)
   rB3 = random(blend)
-  topBlend = [ADD, DIFFERENCE, EXCLUSION, SCREEN, OVERLAY, SOFT_LIGHT, LIGHTEST];
+  topBlend = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, MULTIPLY, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
   tB1 = random(topBlend);
   tB2 = random(topBlend);
-  portalBlend = [ADD, LIGHTEST, DIFFERENCE, EXCLUSION, OVERLAY, SOFT_LIGHT];
+  portalBlend = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, MULTIPLY, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
   pB = random(portalBlend);
   //store random image in a variable
   //let randoImg = random(textures)
