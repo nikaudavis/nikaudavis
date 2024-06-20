@@ -1,74 +1,132 @@
-<!doctype html>
-<html>
-<head>
-	<title>Nikau Davis</title>
-	<meta name="description" content="Sydney/Central Coast Internet Artist">
-	<meta name="keywords" content="Sydney/Central Coast Internet Artist">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-	<link rel="icon" href="https://nikaudavis.github.io/myportal.JPG/">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-<body>
-	<div id="centerContainer">
-		<h1>Nīkau Davis</h1>
-		<p>printmaker | internet artist | optimist</p>
-		<p>I would like to acknowledge and pay my respects to the Darkinyung people, the traditional custodians of the land on which I live and make.</p>
+	<!--Averia Libre - body font-->
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
-		<h2>Works</h2>
-		<p><a href="https://blueprints.pythonanywhere.com/"><span style="background-color: #c8c8ff"><i>Blueprints</i> - 2023<br>(best viewed on phones)</span></a></p>
-		<p><a href="https://nikaudavis.github.io/nikaudavis/outinmygarden"><span style="background-color: #c8c8ff"><i>Out In My Garden</i> - 2023</span></a></p>
-		<p><a href="https://perchance.org/somedaybliss/"><span style="background-color: #c8c8ff"><i>Someday Bliss</i> - 2021</span></a></p>
-		<p><a href="https://perchance.org/ozymandias/"><span style="background-color: #c8c8ff"><i>Ozymandias</i> - 2021</span></a></p>
+	  <!--Sixtyfour - heading font-->
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    
+	  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-
-		<h2>Shows</h2>
-		<p><b>Utopography</b><br>EG03, E Block, UNSW Art & Design, Cnr Oxford St & Greens Rd, Paddington NSW 2021<br>13 – 23 February 2024</p>
-		<p><b>University of New South Wales Annual Graduate Showcase</b><br>UNSW Art & Design, Cnr Oxford St & Greens Rd, Paddington NSW 2021<br>6 – 17 December 2023</p>
-
-		<h2>About</h2>
-		<p>My work plays off the social and creative potential of digital realms, exploring them as ideal spaces for utopian reimaginings of society. Through playful and introspective audience participation, we together create an archive of individual and collective utopias. By collating shared individual and collective longings for a safe, secure, and sustainable future, my work is an optimistic attempt to speak this future into existence, examining utopia as the culmination, source, and product of desire.</p>
-
-		
-		<h2>Contact</h2>
-		<p><a href="https://www.instagram.com/nikauuu/"><span style="background-color: #c8c8ff">Instagram</span></a></p>
-		<p><a href="https://www.pi.fyi/u/nikau"><span style="background-color: #c8c8ff">PI.FYI</span></a></p>
-		<p><a href = "mailto: nikaud@gmail.com"><span style="background-color: #c8c8ff">nikaud@gmail.com</span></a></p>
+  </head>
 	
+  <body>
+    <main>
+      <body>
+	<div id="centerContainer">
+		<h1>Nikau Davis</h1>
+		<p>printmaker | internet artist | life model</p>
+		<p>I pay my respects to the Darkinyung people, the traditional custodians of the land on which I live and make.</p>
 
-	</div>
+		<p><a href="https://nikaudavis.github.io/nikaudavis/about.html"><button class="button">about</button></a></p>
+		<p><a href="https://nikaudavis.github.io/nikaudavis/works.html"><button class="button">works</button></a></p>
+		<p><a href="https://nikaudavis.github.io/nikaudavis/shows.html"><button class="button">shows</button></a></p>
+		<p></p><a href="https://nikaudavis.github.io/nikaudavis/contact.html"><button class="button">contact</button></a></p>
+
+</div>
 </body>
 
 <style>
-
-.source-code pro-<uniquifier> {
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 body {
 	width: 100%; 
 	text-align: center;
 	background-color: #0c2400;
 	color: #ffc8f5;
-	font-family: "Source Code Pro";
+	font-family: "Averia Libre"; 
+	color:white; 
+	font-size:3vh; 
+	text-shadow: 1px 1px 10px #241296, 1px 1px 10px #ffffff;
 }
 
 #centerContainer { 
-	width: 900px; 
+	width: 90vw; 
 	text-align: center; 
 	margin: 0px auto;
 }
 
 h1 {
-	
+	font-family: "Sixtyfour"; 
 }
 
 p {
 	
 }
+
+	.button {
+	text-align: center;
+	background-color: #0c2400;
+	color: #ffc8f5;
+	font-family: "Averia Libre"; 
+	color:white; 
+	font-size:3vh; 
+	text-shadow: 1px 1px 10px #241296, 1px 1px 10px #ffffff;
+	background-color:transparent;
+	border-radius: 25px;
+  	border: 1px solid #ffffff;
+	box-shadow: 1px 1px 10px #241296, 1px 1px 10px #ffffff;
+	padding: 1vh;
+	}
+	
+.averia-libre-light {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.averia-libre-regular {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.averia-libre-bold {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.averia-libre-light-italic {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.averia-libre-regular-italic {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.averia-libre-bold-italic {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sixtyfour-thefont {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+  
+
 </style>
+
+    
+  </body>
 </html>
