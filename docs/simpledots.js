@@ -4,7 +4,8 @@ let n1, n2, n3;
 let z1, z2, z3;
 
 function setup() {
-  createCanvas(w, h);
+  var canvas = createCanvas(w, h);
+  canvas.parent('simpledots-holder');
   
   let r = random(120,230);
   let g = r - random(45, 80);
