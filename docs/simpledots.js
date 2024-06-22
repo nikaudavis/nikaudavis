@@ -1,5 +1,5 @@
-let w = 500;
-let h = 500;
+let w = windowWidth/300;
+let h = w;
 let n1, n2, n3;
 let z1, z2, z3;
 
